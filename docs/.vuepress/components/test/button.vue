@@ -18,6 +18,12 @@
       <div class="item">
         <demo-button type="danger">危险按钮</demo-button>
       </div>
+       <div class="item">
+        <demo-button :round="true"></demo-button>
+      </div>
+      <div class="item">
+        <demo-button :plain="true"></demo-button>
+      </div>
   </div>
 </template>
 
