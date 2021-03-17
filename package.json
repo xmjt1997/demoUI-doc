@@ -20,6 +20,18 @@
   },
   "homepage": "https://github.com/xmjt1997/demoUI-doc#readme",
   "devDependencies": {
+    "core-js": "^3.9.1",
+    "highlight.js": "^10.6.0",
+    "less": "^3.0.2",
+    "vue-highlight.js": "^2.2.0",
     "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "less-loader": "^4.1.0",
+    "vue": "^2.5.16",
+    "vue-highlight.js": "^2.2.0"
   }
 }
