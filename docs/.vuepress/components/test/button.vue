@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import DemoButton from '../modules/button/index.vue'
+import DemoButton from '../modules/button/main.vue'
 export default {
   name: 'buttonWrap',
   components: {

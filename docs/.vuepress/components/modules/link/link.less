@@ -1,0 +1,38 @@
+@import '../../style/_var.less';
+.demo-link{
+    text-decoration:none !important;
+    cursor: pointer;
+}
+
+// 普通样式
+.demo-link--primary{
+    color:@-color--primary;
+}
+// 成功样式
+.demo-link--success{
+    color:@-color--success;
+}
+// 警告样式
+.demo-link--warning{
+    color:@-color--warning;
+}
+// 危险样式
+.demo-link--danger{
+    color:@-color--danger;
+}
+// 提示样式
+.demo-link--info{
+    color:@-color--info;
+}
+
+
+// 展示下划线
+.is-underline{
+    text-decoration:underline;
+    &:hover{
+        text-decoration:underline !important;
+    }
+    &:active{
+        text-decoration:underline !important;
+    }
+}

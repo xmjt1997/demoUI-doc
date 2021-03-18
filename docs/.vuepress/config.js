@@ -16,14 +16,15 @@ module.exports = {
     nav: [
       // 导航栏配置
       { text: "首页", link: "/" },
-      {text: '文档',link:"/document/"},
-      { text: "组件", link: "/view/" },
+      {text: '文档',link:"/document/guide/install"},
+      { text: "组件", link: "/view/base/button" },
     ],
     sidebar: {
       // 文档侧边栏
       "/document/":[
         {
           title:'开发指南',
+          sidebarDepth: 0,
           collapsable: false,
           children:[
             {title:'安装',path:'guide/install'},
@@ -35,6 +36,7 @@ module.exports = {
       "/view/":[
         {
           title:'基础组件',
+          sidebarDepth: 0,
           collapsable: false,
           children:[
             {title:'Button按钮',path:'base/button'},
